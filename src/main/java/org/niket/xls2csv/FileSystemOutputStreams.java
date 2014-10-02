@@ -8,6 +8,7 @@ import java.io.File;
 import java.io.FileOutputStream;
 
 /**
+ * OutputStreams implementation to write output format to filesystem.
  * Created by niket on 2/10/14.
  */
 public class FileSystemOutputStreams extends AbstractOutputStreams<FileOutputStream> {

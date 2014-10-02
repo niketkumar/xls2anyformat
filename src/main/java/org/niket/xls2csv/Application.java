@@ -18,6 +18,7 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeoutException;
 
 /**
+ * Main entry point to the generic solution which works without being aware of filesystem.
  * Created by niket on 2/10/14.
  */
 public class Application<S extends OutputStream> {

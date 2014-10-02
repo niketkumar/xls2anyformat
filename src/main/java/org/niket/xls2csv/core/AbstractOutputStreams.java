@@ -11,6 +11,7 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
 
 /**
+ * Abstract implementation of OutputStreams interface.
  * Created by niket on 2/10/14.
  */
 public abstract class AbstractOutputStreams<S extends OutputStream> implements OutputStreams<S> {

@@ -14,6 +14,7 @@ import java.util.Properties;
 import static java.lang.Thread.currentThread;
 
 /**
+ * Guice Module.
  * Created by niket on 2/10/14.
  */
 public class CoreInjector extends AbstractModule {

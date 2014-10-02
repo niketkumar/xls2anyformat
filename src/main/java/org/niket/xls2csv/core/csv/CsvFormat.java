@@ -3,6 +3,7 @@ package org.niket.xls2csv.core.csv;
 import org.niket.xls2csv.core.XFormat;
 
 /**
+ * Represents CSV data format.
  * Created by niket on 2/10/14.
  */
 public class CsvFormat implements XFormat {

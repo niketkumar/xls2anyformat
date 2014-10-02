@@ -7,6 +7,7 @@ import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 /**
+ * Configuration details relevant to SandBox.
  * Created by niket on 2/10/14.
  */
 @Singleton
@@ -16,8 +17,8 @@ public class SandBoxConfig {
 
     @Inject
     SandBoxConfig(Properties properties) {
-        timeoutValue = Long.valueOf(properties.getProperty("app.timeout.value", "30"));
-        timeoutUnit = TimeUnit.valueOf(properties.getProperty("app.timeout.unit", "SECONDS"));
+        timeoutValue = Long.valueOf(properties.getProperty("task.timeout.value", "30"));
+        timeoutUnit = TimeUnit.valueOf(properties.getProperty("task.timeout.unit", "SECONDS"));
     }
 
     public long getTimeoutValue() {

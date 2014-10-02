@@ -3,6 +3,7 @@ package org.niket.xls2csv.sandbox;
 import java.util.concurrent.Callable;
 
 /**
+ * Task which runs in the SandBox.
  * Created by niket on 2/10/14.
  */
 public interface SandBoxedTask<V> extends Callable<V> {

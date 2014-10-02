@@ -5,6 +5,7 @@ import javax.inject.Singleton;
 import java.util.Properties;
 
 /**
+ * Configurations for Core module.
  * Created by niket on 2/10/14.
  */
 @Singleton

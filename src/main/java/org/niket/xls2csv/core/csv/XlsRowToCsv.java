@@ -12,6 +12,7 @@ import java.util.stream.Collectors;
 import java.util.stream.StreamSupport;
 
 /**
+ * Given a Row, returns row data in CSV format.
  * Created by niket on 2/10/14.
  */
 @Singleton

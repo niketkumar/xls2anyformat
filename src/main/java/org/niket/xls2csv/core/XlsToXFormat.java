@@ -11,6 +11,10 @@ import java.io.InputStream;
 import java.io.OutputStream;
 
 /**
+ * Converts the given InputStream of XLS/XLSX content and creates one OutputStream per Sheet.
+ * <p/>
+ * Based on Configurable setting: max.sheets.allowed it may throw validation exception.
+ * <p/>
  * Created by niket on 2/10/14.
  */
 public class XlsToXFormat<X extends XFormat, S extends OutputStream> implements SandBoxedTask<OutputStreams<S>> {

@@ -10,6 +10,7 @@ import javax.inject.Singleton;
 import java.text.SimpleDateFormat;
 
 /**
+ * Given a Cell, returns the value in String format.
  * Created by niket on 2/10/14.
  */
 @Singleton

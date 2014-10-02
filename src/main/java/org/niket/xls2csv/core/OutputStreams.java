@@ -5,6 +5,7 @@ import java.io.OutputStream;
 import java.util.Map;
 
 /**
+ * Collection of OutputStreams which contain data in target format. One OutputStream per Sheet.
  * Created by niket on 2/10/14.
  */
 public interface OutputStreams<S extends OutputStream> extends Closeable, Iterable<Map.Entry<String, S>> {
@@ -12,7 +13,7 @@ public interface OutputStreams<S extends OutputStream> extends Closeable, Iterab
 
     S addOutputStream(String streamId);
 
-    String getUserId();
+    public String getUserId();
 
-    String getProblemId();
+    public String getProblemId();
 }
