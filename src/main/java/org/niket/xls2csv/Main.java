@@ -13,7 +13,6 @@ import java.io.FileOutputStream;
  */
 public class Main {
     public static void main(String[] args) throws Exception {
-        System.out.println(args.length);
         if (args.length != 4) {
             System.err.println("Usage:  java -jar xls2csv-0.0.1.jar <userId> <problemId> <input xls file path> <output csv root folder>");
             System.exit(-1);
